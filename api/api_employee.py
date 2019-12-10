@@ -12,6 +12,7 @@ class ApiEmployee:
         # {}为占位符,传入员工id
         self.url_delete = api.BASE_URL + "/api/sys/user/{}"
 
+
     #  添加员工
     def api_post_employee(self,name,pwd,num):
         # 创建json数据
