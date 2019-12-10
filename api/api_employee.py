@@ -2,8 +2,6 @@ import api
 import requests
 
 
-
-
 class ApiEmployee:
     # 初始化
     def __init__(self):
