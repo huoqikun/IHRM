@@ -11,7 +11,6 @@ class TestEmployee(unittest.TestCase):
     def setUpClass(cls):
         cls.api = ApiEmployee()
 
-
     def test01_post(self,name="hxy",pwd="13934352991",num="1423229"):
         r = self.api.api_post_employee(name,pwd,num)
         print("数据:",r.json())
